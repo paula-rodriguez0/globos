@@ -1,6 +1,6 @@
 class Globo
 {
-  float x, y,vx,vy;
+  float x, y,vx,vy, ay;
   Globo (float _x, float _y)
   {
    x=_x;
