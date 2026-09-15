@@ -22,11 +22,16 @@ class Globo
     fill (c); // cambio el color
       ellipse(x,y,80,100);
       
+
+      imageMode (CENTER);
+      ellipse(x,y,80,100);
+      image (cara, x, y, 40, 80);
       triangle (x, y+50, x-10, y+60, x+10, y+60);
+      
   }
   
 }
-
+PImage cara;
 ArrayList<Globo> globos;
 
 
@@ -34,6 +39,8 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  println ("Arranca programa");
+  cara = loadImage("face.png"); // foto
 }
 
 void draw()
