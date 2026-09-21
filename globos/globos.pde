@@ -27,6 +27,7 @@ class Globo
       ellipse(x,y,80,100);
       image (cara, x, y, 40, 80);
       triangle (x, y+50, x-10, y+60, x+10, y+60);
+      line(x, y+60, x, y+140); //Cambio Helena 2
       
   }
   
