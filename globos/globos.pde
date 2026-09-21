@@ -6,8 +6,8 @@ class Globo
   {
    x=_x;
    y=_y; 
-   vx=random(-0.25,0.25);
-   vy=random(-2,-0.5);
+   vx=random(0,1); //Cambio Helena
+   vy=random(-2,-0.5); //Cambio Helena
    c = color (random(0, 255), 100, 100);
   }
 
