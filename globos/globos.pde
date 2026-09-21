@@ -6,8 +6,8 @@ class Globo
   {
    x=_x;
    y=_y; 
-   vx=random(-0.25,0.25);
-   vy=random(-2,-0.5);
+   vx=random(0,1); //Cambio Helena
+   vy=random(-2,-0.5); //Cambio Helena
    c = color (random(0, 255), 100, 100);
   }
 
@@ -27,6 +27,7 @@ class Globo
       ellipse(x,y,80,100);
       image (cara, x, y, 40, 80);
       triangle (x, y+50, x-10, y+60, x+10, y+60);
+      line(x, y+60, x, y+140); //Cambio Helena 2
       
   }
   
